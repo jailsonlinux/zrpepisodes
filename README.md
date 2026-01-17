@@ -33,7 +33,7 @@
 
 ```bash
 # 1. Clone o projeto
-git clone [http://github.com/jailson/zrpepisodes](http://github.com/jailson/zrpepisodes)
+git clone [git clone https://github.com/jailsonlinux/zrpepisodes.git](git clone https://github.com/jailsonlinux/zrpepisodes.git)
 cd zrpepisodes
 
 # 2. Prepare o ambiente de build
