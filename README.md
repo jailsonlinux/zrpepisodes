@@ -33,14 +33,14 @@
 
 ```bash
 # 1. Clone o projeto
-git clone [git clone https://github.com/jailsonlinux/zrpepisodes.git](git clone https://github.com/jailsonlinux/zrpepisodes.git)
+git clone https://github.com/jailsonlinux/zrpepisodes.git
 cd zrpepisodes
 
 # 2. Prepare o ambiente de build
 mkdir build && cd build
 
 # 3. Configure (Ajuste o caminho para o seu path do Qt)
-cmake -DCMAKE_PREFIX_PATH=/home/jailson2/Qt/6.8.0/gcc_64 ..
+cmake -DCMAKE_PREFIX_PATH=/path/to/Qt/6.8.0/gcc_64 ..
 
 # 4. Compile
 cmake --build . --target all
@@ -57,4 +57,4 @@ Bash
 
 cd build
 ctest --output-on-failure
-Desenvolvido por Jailson
+Desenvolvido por **Jailson** jotalinux2@gmail.com
